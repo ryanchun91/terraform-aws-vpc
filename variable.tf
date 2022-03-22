@@ -1,2 +1,4 @@
 variable "cidr_block" {}
-variable "tags" {}
+variable "tags" {
+    type = map
+}
